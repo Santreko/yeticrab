@@ -1,0 +1,23 @@
+.deleteOrderModal .yc-modal__content {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    width: 250px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.deleteOrderModal__button--close {
+    width: 150px;
+    justify-self: right;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.deleteOrderModal__header {
+    text-align: center;
+    margin-top: 40px;
+}

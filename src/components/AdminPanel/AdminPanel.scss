@@ -1,0 +1,41 @@
+.adminPanel {
+    width: 250px;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    justify-content: center;
+    min-height: 78px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.adminPanel__switcher span {
+    font-size: 15px;
+}
+
+.adminPanel__buttonWrapper {
+    display: none;
+}
+
+.adminPanel__buttonWrapper--opened {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.adminPanel__newOrderButton,
+.adminPanel__deleteOrderButton,
+.adminPanel__updateOrderButton {
+    border-radius: 50%;
+}
+
+.adminPanel__newOrderButton span,
+.adminPanel__deleteOrderButton span,
+.adminPanel__updateOrderButton span {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

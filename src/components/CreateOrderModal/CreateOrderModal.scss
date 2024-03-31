@@ -1,0 +1,23 @@
+.createOrderModal .yc-modal__content {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    width: 350px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.createOrderModal__button--close {
+    width: 150px;
+    justify-self: right;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.createOrderModal__header {
+    text-align: center;
+    margin-top: 40px;
+}
